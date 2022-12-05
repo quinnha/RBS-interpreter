@@ -4,12 +4,17 @@ This project is an interpreter for RBS, a programming language which is a subset
 
 To use, simply run <code>python translator.py -f py_file_location</code>
 
+![-f flag](https://github.com/quinnha/RBS-interpreter/blob/main/media/f_flag.PNG)
+
 To view the AST, run <code>python translator.py --ast-only -f py_file_location</code>
 
+![--ast-only flag](https://github.com/quinnha/RBS-interpreter/blob/main/media/ast_flag.PNG)
+
+
+----
 Reb-bellied Snakes (RBS) are a non-venomous kind of snake, endemic to North-America. They are quite small, but can be spotted
 when hiking in Hamilton, for example.
 
-----
 The RBS language holds the following properties:
 
 • It is a subset of Python. Thus, RBS code can be run by any Python interpreter;
